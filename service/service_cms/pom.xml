@@ -11,6 +11,7 @@
 
     <artifactId>service_cms</artifactId>
 
+
     <build>
         <resources>
             <resource>
@@ -23,6 +24,5 @@
                 <filtering>false</filtering>
             </resource>
         </resources>
-
     </build>
 </project>

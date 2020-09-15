@@ -27,7 +27,7 @@ public class OssServiceImpl implements OssService {
 
         try {
             // 创建OSS实例。
-                       OSS ossClient = new OSSClientBuilder().build(endpoint, accessKeyId, accessKeySecret);
+            OSS ossClient = new OSSClientBuilder().build(endpoint, accessKeyId, accessKeySecret);
 
             //获取上传文件输入流
             InputStream inputStream = file.getInputStream();
